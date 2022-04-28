@@ -1,0 +1,72 @@
+Start testing: Apr 28 15:14 CST
+----------------------------------------------------------
+1/2 Testing: database_project_csv_data_loader_test
+1/2 Test: database_project_csv_data_loader_test
+Command: "/home/donut/bytedance-database-project/build/test/lab1/csv_data_loader_test"
+Directory: /home/donut/bytedance-database-project/build/test/lab1
+"database_project_csv_data_loader_test" start time: Apr 28 15:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CsvDataLoaderTest
+[ RUN      ] CsvDataLoaderTest.BasicTest
+[       OK ] CsvDataLoaderTest.BasicTest (0 ms)
+[----------] 1 test from CsvDataLoaderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"database_project_csv_data_loader_test" end time: Apr 28 15:14 CST
+"database_project_csv_data_loader_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: database_project_lab1_test
+2/2 Test: database_project_lab1_test
+Command: "/home/donut/bytedance-database-project/build/test/lab1/lab1_test"
+Directory: /home/donut/bytedance-database-project/build/test/lab1
+"database_project_lab1_test" start time: Apr 28 15:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /tmp/tmp_download/googletest/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from Lab1Test
+[ RUN      ] Lab1Test.TestRowTable
+/home/donut/bytedance-database-project/test/lab1/lab1_test.cc:18: Failure
+Expected equality of these values:
+  68
+  rt.ColumnSum()
+    Which is: 0
+[  FAILED  ] Lab1Test.TestRowTable (0 ms)
+[ RUN      ] Lab1Test.TestColumnTable
+/home/donut/bytedance-database-project/test/lab1/lab1_test.cc:24: Failure
+Expected equality of these values:
+  68
+  rt.ColumnSum()
+    Which is: 0
+[  FAILED  ] Lab1Test.TestColumnTable (0 ms)
+[----------] 2 tests from Lab1Test (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (5 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] Lab1Test.TestRowTable
+[  FAILED  ] Lab1Test.TestColumnTable
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"database_project_lab1_test" end time: Apr 28 15:14 CST
+"database_project_lab1_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 28 15:14 CST
