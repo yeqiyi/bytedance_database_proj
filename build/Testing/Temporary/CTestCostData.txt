@@ -1,4 +1,0 @@
-database_project_csv_data_loader_test 1 0.00603294
-database_project_lab1_test 0 0
----
-database_project_lab1_test
